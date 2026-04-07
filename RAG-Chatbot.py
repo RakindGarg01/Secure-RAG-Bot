@@ -9,7 +9,7 @@ with st.sidebar:
      file = st.file_uploader("Upload a PDF File and start asking questions" , type="pdf")
 
 
-#Extract Contents from pdf
+### Extract Contents from pdf ###
 
 if file is not None:
      #extract text from it
@@ -19,7 +19,7 @@ if file is not None:
                text+=page.extract_text() + "\n"
      # st.write(text)
 
-     # Split Text into chunks
+### Split Text into chunks ###
 
      text_splitter = RecursiveCharacterTextSplitter(
           separators=["\n\n" , "\n" , ". " , " " , ""],
@@ -30,3 +30,4 @@ if file is not None:
      chunks = text_splitter.split_text(text)
      st.write(chunks)
 
+### Embeddings ###
