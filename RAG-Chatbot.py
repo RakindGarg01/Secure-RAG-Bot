@@ -48,3 +48,12 @@ if file is not None:
 
      vector_store = FAISS.from_texts(chunks, embeddings)
      st.write(vector_store)
+
+# Get the User Question
+     user_question = st.text_input("Type Your Question Here")
+
+# Generate Answer
+# CHAIN
+# QUESTION -> EMBEDDINGS -> SIMILARITY SEARCH -> RESULTS TO LLM -> RESPONSE
+
+     
