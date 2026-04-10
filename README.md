@@ -143,7 +143,7 @@ This platform implements a **closed-domain RAG system** that keeps all knowledge
 **1. Clone the repository:**
 
 ```bash
-git clone https://github  .com/RakindGarg01/RAG-Chatbot
+git clone https://github.com/RakindGarg01/RAG-Chatbot
 cd RAG-Chatbot
   ```
 
