@@ -1,4 +1,4 @@
-# 🧠 ContextGuard AI – A Secure RAG-based Internal Q&A System
+# 🧠 Secure RAG AI – A Secure RAG-based Internal Q&A System
 
 A secure, closed-domain Retrieval-Augmented Generation (RAG) chatbot for organizational knowledge management — answers questions **strictly** from your proprietary documents.
 
@@ -143,8 +143,8 @@ This platform implements a **closed-domain RAG system** that keeps all knowledge
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/RakindGarg01/RAG-Chatbot
-cd RAG-Chatbot
+git clone https://github.com/RakindGarg01/Secure-RAG-Bot.git
+cd Secure-RAG-Bot
   ```
 
 **2. Create and activate a virtual environment:**
